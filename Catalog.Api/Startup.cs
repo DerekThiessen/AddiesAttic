@@ -77,10 +77,9 @@ namespace Catalog.Api
                 options.DescribeAllEnumsAsStrings();
                 options.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info
                 {
-                    Title = "eCraftMall - Catalog HTTP API",
+                    Title = "eAddiesAttic - Catalog HTTP API",
                     Version = "v1",
                     Description = "The Catalog Microservice HTTP API.  This is a Data-Driven/CRUD microservice",
-                    TermsOfService = "Terms Of Service"
                 });
             });
 
